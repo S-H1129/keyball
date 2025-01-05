@@ -35,22 +35,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAP_CODE_DELAY 5
 
-// Time until OLED go out
-#define OLED_TIMEOUT 30000
-
-// Enable auto mouse layout
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
-#define AUTO_MOUSE_DEFAULT_LAYER 4
-// Time layer remains active after activation
-#define AUTO_MOUSE_TIME 1000
-
-// Time until layer switch key is enabled
-#define TAPPING_TERM 180
-
-// Add layer
-#define DYNAMIC_KEYMAP_LAYER_COUNT 5
-
-// Mouse speed
-#define KEYBALL_CPI_DEFAULT 400
-// Scroll speed
-#define KEYBALL_SCROLL_DIV_DEFAULT 5
+#define AUTO_MOUSE_DEFAULT_LAYER 1
